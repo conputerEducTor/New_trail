@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Maharashtra_Guide</string>
+
+    <string name="first_slide_title">Search Your location</string>
+<string name="second_slide_title">Make a Call</string>
+<string name="third_slide_title">Add Missing Place</string>
+<string name="fourth_slide_title">Sit Back And Enjoy</string>
+<string name="fifth_slide_title">------------------------------------------------</string>
+
+<string name="first_slide_desc">You can Search any place nearby or within Maharashtra. We will display specific or all search related result.</string>
+<string name="second_slide_desc">We provide  almost all thr numbers of all department and shop registerd with us. You can make call with those department</string>
+<string name="third_slide_desc">If you have a shop or something and want to be a part of our growing industry then add your place by your Own.</string>
+<string name="fourth_slide_desc">We will handle everything for you. As you have the app in your pocket then you do not have to worry.</string>
+</resources>

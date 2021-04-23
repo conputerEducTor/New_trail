@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:id="@+id/txt_explore"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="Explore Pune"
+        android:textSize="30dp" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/walk"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:lottie_fileName="walk.json"
+        android:layout_marginTop="10dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/pro"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        app:lottie_fileName="Pro.json"
+        />
+
+
+
+
+
+</LinearLayout>
